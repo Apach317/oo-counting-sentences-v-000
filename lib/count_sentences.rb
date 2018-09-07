@@ -21,7 +21,6 @@ class String
     else
       return false
     end
-    count_sentences
     puts count
   end
 end
