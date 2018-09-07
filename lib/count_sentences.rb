@@ -16,11 +16,12 @@ class String
 
   def count_sentences
     count = 0
-    if self.end_with?.split(".", "?", "!")
+    if self.end_with?(".", "?", "!")
       count += 1
     else
       return false
     end
+    binding.pry
     count_sentences
     puts count
   end
