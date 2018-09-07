@@ -15,15 +15,5 @@ class String
   end
 
   def count_sentences
-    count = 0
-    if self.split do |selfie|
-      selfie.end_with?(".", "?", "!")
-    end
-      count += 1
-    else
-      return false
-      count_sentences
-    end
-    puts count
+  end_sent = self.split(/[?.!]/)
   end
-end
