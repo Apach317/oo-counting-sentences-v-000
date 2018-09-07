@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    "Crazy Horse!".ends_with?(".")
+    "Crazy Horse!".end_with?(".")
   end
 
   def question?
