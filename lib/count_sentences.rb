@@ -20,8 +20,8 @@ class String
       count += 1
     else
       return false
+      count_sentences
     end
-    binding.pry
     count_sentences
     puts count
   end
