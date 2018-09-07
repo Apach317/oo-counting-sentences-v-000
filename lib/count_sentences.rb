@@ -18,7 +18,6 @@ class String
     count = 0
     if self.split do |selfie|
       selfie.end_with?(".", "?", "!")
-    end
       count += 1
     else
       return false
