@@ -16,7 +16,8 @@ class String
 
   def count_sentences
     count = 0
-    if self.end_with?(".", "?", "!")
+    if self.split do |selfie|
+      selfie.end_with?(".", "?", "!")
       count += 1
     else
       return false
